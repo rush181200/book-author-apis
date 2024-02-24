@@ -23,7 +23,7 @@ This is a RESTful API built with Spring Boot and PostgreSQL for managing books a
 - **POST /authors:** Create a new author.
 - **PUT /authors/{id}:** Update details of a specific author by ID.
 - **DELETE /authors/{id}:** Delete a specific author by ID.
-- **PATCH /authors/{id}:**Partial Update
+- **PATCH /authors/{id}:** Partial Update
 
 ## Technologies Used
 
