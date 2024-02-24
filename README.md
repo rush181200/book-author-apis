@@ -1,6 +1,7 @@
 # Book Author RESTful API
 
 The Complete API is in the master branch
+
 The API has swagger documentation use this url after running the app "http://localhost:8080/swagger-ui/index.html#/"
 
 This is a RESTful API built with Spring Boot and PostgreSQL for managing books and authors.
