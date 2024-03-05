@@ -59,8 +59,8 @@ public class BookController {
     }
 
     @GetMapping(path = "/books")
-    public Page<BookDto> listBooks(Pageable pageable){
-       Page<BookEntity> books =  bookService.findAll(pageable);
+    public Page<BookDto> listBooks(org.springframework.data.domain.Pageable pageable){
+       Page<BookEntity> books =  bookService.findAll((org.springframework.data.domain.Pageable) pageable);
         return books.map(bookDtoMapper::mapTo);
     }
 

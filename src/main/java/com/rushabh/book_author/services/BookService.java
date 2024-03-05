@@ -11,7 +11,7 @@ public interface BookService {
     BookEntity createBook(String isbn,BookEntity book);
 
     List<BookEntity> findAll();
-    Page<BookEntity> findAll(Pageable pageable);
+    Page<BookEntity> findAll(org.springframework.data.domain.Pageable pageable);
 
     Optional<BookEntity> findOne(String isbn);
 

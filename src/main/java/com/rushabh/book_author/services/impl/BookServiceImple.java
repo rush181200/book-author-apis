@@ -36,8 +36,8 @@ public class BookServiceImple implements BookService {
     }
 
     @Override
-    public Page<BookEntity> findAll(Pageable pageable) {
-        return bookRepository.findAll((org.springframework.data.domain.Pageable) pageable);
+    public Page<BookEntity> findAll(org.springframework.data.domain.Pageable pageable) {
+        return bookRepository.findAll(pageable);
     }
 
     @Override
